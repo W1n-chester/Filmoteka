@@ -1,0 +1,34 @@
+.library {
+  // Для позиціонування контенту аби футер завжди був притиснутий до низу
+  flex-grow: 1;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+.library__container {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  padding: 0 20px;
+
+  @media screen and (min-width: 320px) {
+    width: 320px;
+    padding: 0 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    padding: 0 32px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+    column-gap: 16px;
+  }
+}

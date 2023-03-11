@@ -1,0 +1,65 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+/* Стилі для обнулення верхніх відступів елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+/* Класс для обнулення базових властивостей списків (ul) */
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  list-style: none;
+}
+/* Класс для обнулення базових властивостей посилань (a) */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Властивості для коректного відображення картинок */
+img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+
+/* Властивості для обнулення курсива в address */
+
+address {
+  font-style: normal;
+}
